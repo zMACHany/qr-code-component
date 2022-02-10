@@ -1,0 +1,47 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	display: block;
+	background-color: hsl(212, 45%, 89%);
+	font-family: Outfit;
+	font-size: 15px;
+	text-align: center;
+}
+img {
+	height: auto;
+	max-width: 100%;
+	display: block;
+	border-radius: 15px;
+	margin-bottom: 15px;
+}
+
+.box {
+	position: relative;
+	top: 10vh;
+	left: 45vw;
+	background-color: #fff;
+	padding: 15px;
+	border-radius: 25px;
+	width: 300px;
+
+	overflow: hidden;
+}
+@media (max-width: 1040px) {
+	.box {
+		position: relative;
+		left: 15%;
+      
+	}
+	
+}
+h2 {
+    color: hsl(218, 44%, 22%);
+}
+p {
+	color: hsl(220, 15%, 55%);
+	padding-bottom: 15px;
+}
